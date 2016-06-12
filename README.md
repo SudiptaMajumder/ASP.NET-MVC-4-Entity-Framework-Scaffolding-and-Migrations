@@ -3,20 +3,20 @@
 
 Nuget Command :- 
 
-  Install-Package MvcScaffolding -Version 1.0.8-vs2013 -Pre
+  --Install-Package MvcScaffolding -Version 1.0.8-vs2013 -Pre
 
-  Install-Package EntityFramework -IncludePrerelease   //Install-Package EntityFramework -Version 6.0.0 -IncludePrerelease
+  --Install-Package EntityFramework -IncludePrerelease   //Install-Package EntityFramework -Version 6.0.0 -IncludePrerelease
 
 In code first approach. When you changed model then you have to run the following commands for changing database.
 
 Firstly,
 
-  Enable-Migrations -ContextTypeName DemoDbContext
+  --Enable-Migrations -ContextTypeName DemoDbContext
 
 Secondly,
 
-  add-migration InitialCreate
+  --add-migration InitialCreate
 
 Thirdly,
 
-  update-Database
+  --update-Database
